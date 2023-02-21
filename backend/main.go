@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/naphattar/GolangAuthLearning/configs"
+	"github.com/naphattar/GolangAuthLearning/routes"
 )
 
 func main() {
@@ -13,6 +14,6 @@ func main() {
 	})
 
 	configs.ConnectDB()
-
+	routes.UserRoute(app)
 	app.Listen(":4000")
 }
