@@ -1,8 +1,6 @@
 package main
 
 import (
-	"./configs"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/naphattar/GolangAuthLearning/configs"
 )
