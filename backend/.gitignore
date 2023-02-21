@@ -1,0 +1,7 @@
+# go packpage
+go.sum
+go.mod
+
+# .env files
+
+.env
